@@ -14,6 +14,11 @@
     </head>
 
     <body>
+
+        <?php
+        require('../model/validaLoginAdmin.php');
+        ?>
+
         <!--Navbar-->
         <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark ">
             <div class="container">
